@@ -1,6 +1,6 @@
 name: Build and Push Multi-Arch Docker Images 2026.1.26同时推送镜像至ghcr和dockerhub
 
-on:
+#on:
   workflow_dispatch:
     inputs:
       image_tag:
